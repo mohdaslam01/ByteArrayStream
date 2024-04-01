@@ -42,6 +42,8 @@ public class ByteAndCharStreams {
         }
         System.out.println(byteoutput);
         //writing to a file
+        //replace "/Users/Aslam/OneDrive/Desktop/mdaslam/java/FileIOStreamProgram/ByteOutputData.txt" with location you prefer to save the output of this byte array
+        //also REMOVE C: AND START THE FILE LOCATION from HOME DIRECTORY /USER/... and so on
         byteoutput.writeTo(new FileOutputStream("/Users/Aslam/OneDrive/Desktop/mdaslam/java/FileIOStreamProgram/ByteOutputData.txt"));
         System.out.println("still byteoutput has data "+byteoutput);
         System.out.println("still byteoutput has data "+byteoutput);
